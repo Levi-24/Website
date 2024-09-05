@@ -1,12 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 nav{
     width: 100%;
-    background-color: gray;
+    background-color: rgb(53, 53, 53);
     position: sticky;
     top: 0;
 }
@@ -26,7 +25,7 @@ li a{
 }
 
 #searchBar{
-    width: 100%;
+    width: 20rem;
     padding: 10px;
     margin: 10px;
 }
@@ -34,11 +33,12 @@ li a{
 #searchButton{
     padding: 10px;
     margin: 10px;
+    border-radius: 5px;
 }
 
 #logo{
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 10px;
     padding: 10px;
     display: block;
@@ -52,7 +52,7 @@ li a{
     justify-content: center;
     width: 100%;
     min-height: 40vh;
-    background-color: rgb(207, 207, 193);
+    background-color: rgb(160, 160, 160);
 }
 
 #button{
@@ -84,11 +84,11 @@ li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
     width: 100%;
+    margin-top: 20px;
     min-height: 30vh;
     border: 1px solid black;
-    background-color: rgb(121, 121, 121);
+    background-color: rgb(216, 216, 216);
 }
 
 .section{
@@ -99,8 +99,7 @@ li a{
     gap: 1rem;
     width: 100%;
     min-height: 30vh;
-    border: 1px solid black;
-    background-color: rgb(121, 121, 121);
+    background-color: rgb(216, 216, 216);
 }
 
 .section img{
@@ -112,7 +111,7 @@ footer{
     width: 100%;
     position: sticky;
     bottom: 0;
-    background-color: darkcyan;
+    background-color: rgb(53, 53, 53);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,8 +120,14 @@ footer{
 
 .footerSection{
     display: flex;
+    color: white;
     align-items: center;
     flex-direction: column;
     min-width: 30%;
     gap: 1rem;
+}
+
+.footerSection a{
+    color: white;
+    text-decoration: none;
 }
