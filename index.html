@@ -4,26 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
     <nav>        
         <ul>
-            <li><img src="images.png" alt="Logo" id="logoImg"></li>
+            <li><h1 id="logo">LOGO</h1></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><input type="text" id="searchBar"></li>
-            <li><input type="button" value="SRCH" id="searchButton"></li>
+            <li><input type="text" placeholder="Keresés..." id="searchBar"></li>
+            <li><input type="button" value="Keresés" id="searchButton"></li>
         </ul>
     </nav>
     <main>
+        <div class="upperSection">
+            <h1>Üdvözlünk!</h1>
+            <h3>Fedezd fel a weboldalunkat és találj meg minden szükséges információt.</h3>
+            <input type="button" id="button" value="Tudj meg többet!">
+        </div>
+        <div class="midSection">
+            <div class="section">
+                <img src="" alt="Szolgáltatás1">
+                <h1>Szolgáltatás 1</h1>
+                <h4>Egy példa a szolgáltatás leírására.</h4>
+            </div>
+            <div class="section" >
+                <img src="" alt="Szolgáltatás2">
+                <h1>Szolgáltatás 2</h1>
+                <h4>Egy példa a szolgáltatás leírására</h4>
+            </div>
+            <div class="section">
+                <img src="" alt="Szolgáltatás3">
+                <h1>Szolgáltatás 3</h1>
+                <h4>Egy példa a szolgáltatás leírására</h4>
+            </div>
+        </div>
 
+        <div class="lowerSection">
+            <div class="rightSection">
+                <div class="imgHolder">
+                    <img src="" alt="Kep 1">
+                </div>
+                <div class="imgHolder">
+                    <img src="" alt="Kep 2">
+                </div>
+            </div>
+            <div class="leftSection">
+                <div class="imgHolder">
+                    <img src="" alt="Kep 3">
+                </div>
+                <div class="imgHolder">
+                    <img src="" alt="Kep 4">
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2020</p>
+        <div class="footerSection">
+            <h1>Rólunk</h1>
+            <h3>Ez egy rövid leírás a weboldalról és annak céljáról.</h3>
+        </div>
+        <div class="footerSection">
+            <h1>Hasznos linkek</h1>
+            <a href="link1.html">Link 1</a>
+            <a href="link2.html">Link 2</a>
+            <a href="link3.html">Link 3</a>
+        </div>
+        <div class="footerSection">
+            <h1>Feliratkozás</h1>
+            <input type="text" placeholder="Név">
+            <input type="text" placeholder="E-mail">
+            <input type="button" value="Feliratkozás">
+        </div>
     </footer>
 </body>
 </html>
